@@ -1,0 +1,21 @@
+Merge "Beam.geo";
+Mesh.MshFileVersion = 2.2;
+Mesh 2;
+
+SetOrder 6;
+Mesh.SaveTopology; 
+Save Sprintf("level_%1g%1g.msh", 0,0);
+Mesh.SaveTopology; 
+For i In {1:4}
+  RefineMesh;
+  SetOrder 6;
+  Save Sprintf("level_%1g%1g.msh", i,0);
+EndFor
+Delete All;
+
+
+
+
+
+Exit;
+

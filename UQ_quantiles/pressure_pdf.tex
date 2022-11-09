@@ -1,0 +1,88 @@
+\documentclass[margin=5pt]{standalone}
+
+\usepackage{etoolbox}
+\usepackage{pgfplots}
+	\pgfplotsset{compat=newest}
+	\usepgfplotslibrary{fillbetween}
+	\usetikzlibrary{calc, spy}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[eulergreek]{sansmath}
+\usepackage{siunitx}
+
+\newcommand{\plotquantile}[4]{
+	\addplot[name path=upper,draw=none, smooth, forget plot] table[x index=#1,y index=0] {#3};
+	\addplot[name path=lower,draw=none, smooth, forget plot] table[x index=#2,y index=0] {#3};
+	\addplot[fill=#4,forget plot] fill between[of=upper and lower];
+}
+
+\newcommand{\plotquantiles}[2]{
+	\plotquantile{1}{12}{#2}{#1!10}
+	\plotquantile{2}{11}{#2}{#1!20}
+	\plotquantile{3}{10}{#2}{#1!30}
+	\plotquantile{4}{9}{#2}{#1!40}
+	\plotquantile{5}{8}{#2}{#1!50}
+	\plotquantile{6}{7}{#2}{#1!60}
+}
+
+\newcommand{\plotmedian}[3]{
+	\addplot[draw=#1, line width=.3pt, smooth] table[x index=#3,y index=0] {#2};
+}
+
+\definecolor{euforiadarkblue}{RGB}{0,0,0}
+%\definecolor{euforiadarkblue}{RGB}{42,76,121}
+
+\begin{document}
+
+\pgfmathsetmacro{\rbig}{1.75cm}
+\pgfmathsetmacro{\mag}{6}
+\pgfmathsetmacro{\rsmall}{\rbig/\mag}
+
+\begin{tikzpicture}
+	\begin{axis}[
+		width=5cm,
+		height=8cm,
+		xlabel={total P [$\si\bar$]},
+		xmin = 1.9,
+		xmax = 2.3,
+		ymin=0,
+		ymax=1,
+		%xmin = 0,
+		%xmax = 0.0015,
+		%xtick = {0,0.0005,0.001,0.0015},
+		ylabel={normalized span [-]},
+		%ymin = -5,
+		%ymax = 20,
+		%ytick = {-5,0,...,20},
+		ticklabel style={font=\tiny\sansmath\sffamily},
+		major tick length=2pt,
+		every tick/.style={euforiadarkblue, line cap=round},
+		axis on top,
+		clip marker paths=true,
+		%scaled x ticks=false,
+%		xticklabel style={
+%        			/pgf/number format/fixed,
+%        			/pgf/number format/fixed zerofill,
+%        			/pgf/number format/precision=4,
+%		},
+		%xtick={-.05,-.025,0,.025,.05},
+		%ytick={0.8,0.9,...,1.4},
+%		yticklabel style={
+%        			/pgf/number format/fixed,
+%        			/pgf/number format/fixed zerofill,
+%        			/pgf/number format/precision=0,
+%		},
+every x tick scale label/.style={
+    at={(1,0)},xshift=1pt,anchor=south west,inner sep=0pt
+},
+		every axis/.style={euforiadarkblue},
+		axis line style={euforiadarkblue}
+	]
+	\plotquantiles{orange}{pressure_quantiles.txt}
+	\plotmedian{orange}{pressure_quantiles.txt}{13}
+	\end{axis}
+\end{tikzpicture}%
+
+\end{document}  
+
+
+

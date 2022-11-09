@@ -1,0 +1,680 @@
+Procs added
+ishigherorderRef true
+number Of TOlerances 200
+Max number of levels 7
+ElementRefinement false
+isHigerOrderRefinement true
+p-ref and hp-ref
+p-ref and hp-ref
+p-ref and hp-ref
+p-ref and hp-ref
+p-ref and hp-ref
+p-ref and hp-ref
+p-ref and hp-ref
+p-ref and hp-ref
+Normal{Int64}(μ = 0, σ = 1)
+P of covar equals
+2
+Master Field for Level: 0
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 2000 points and 80 elements, using a KL expansion with 586 terms
+---------------------------------------------
+Master Field for Level: 1
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 6480 points and 80 elements, using a KL expansion with 586 terms
+Slave Fields for Level: 1
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 2000 points and 80 elements, using a KL expansion with 586 terms
+Eigenfunctions Matching
+---------------------------------------------
+Master Field for Level: 2
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 9680 points and 80 elements, using a KL expansion with 586 terms
+Slave Fields for Level: 2
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 6480 points and 80 elements, using a KL expansion with 586 terms
+Eigenfunctions Matching
+---------------------------------------------
+Master Field for Level: 3
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 18000 points and 80 elements, using a KL expansion with 586 terms
+Slave Fields for Level: 3
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 9680 points and 80 elements, using a KL expansion with 586 terms
+Eigenfunctions Matching
+---------------------------------------------
+Master Field for Level: 4
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 23120 points and 80 elements, using a KL expansion with 586 terms
+Slave Fields for Level: 4
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 18000 points and 80 elements, using a KL expansion with 586 terms
+Eigenfunctions Matching
+---------------------------------------------
+Master Field for Level: 5
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 35280 points and 80 elements, using a KL expansion with 586 terms
+Slave Fields for Level: 5
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 23120 points and 80 elements, using a KL expansion with 586 terms
+Eigenfunctions Matching
+---------------------------------------------
+Master Field for Level: 6
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 50000 points and 80 elements, using a KL expansion with 586 terms
+Slave Fields for Level: 6
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 35280 points and 80 elements, using a KL expansion with 586 terms
+Eigenfunctions Matching
+---------------------------------------------
+Master Field for Level: 7
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 58320 points and 80 elements, using a KL expansion with 586 terms
+Slave Fields for Level: 7
+Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 50000 points and 80 elements, using a KL expansion with 586 terms
+Eigenfunctions Matching
+---------------------------------------------
+Dict{Any,Any}(6 => Dict{Any,Any}(6 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 50000 points and 80 elements, using a KL expansion with 586 terms,7 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 50000 points and 80 elements, using a KL expansion with 586 terms),3 => Dict{Any,Any}(3 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 18000 points and 80 elements, using a KL expansion with 586 terms,4 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 18000 points and 80 elements, using a KL expansion with 586 terms),7 => Dict{Any,Any}(7 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 58320 points and 80 elements, using a KL expansion with 586 terms),4 => Dict{Any,Any}(4 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 23120 points and 80 elements, using a KL expansion with 586 terms,5 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 23120 points and 80 elements, using a KL expansion with 586 terms),0 => Dict{Any,Any}(0 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 2000 points and 80 elements, using a KL expansion with 586 terms,1 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 2000 points and 80 elements, using a KL expansion with 586 terms),2 => Dict{Any,Any}(3 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 9680 points and 80 elements, using a KL expansion with 586 terms,2 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 9680 points and 80 elements, using a KL expansion with 586 terms),1 => Dict{Any,Any}(2 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 6480 points and 80 elements, using a KL expansion with 586 terms,1 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 6480 points and 80 elements, using a KL expansion with 586 terms),5 => Dict{Any,Any}(6 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 35280 points and 80 elements, using a KL expansion with 586 terms,5 => Gaussian random field with 2d Matérn covariance function (λ=0.3, ν=4.0, σ=1.0, p=2.0) on a mesh with 35280 points and 80 elements, using a KL expansion with 586 terms))
+Gamma is
+1.5
+Lattice
++-------------------------------------------------------------------------------+
+| *** MultilevelEstimators.jl @2022-03-25T03:25:21.267                          |
+| *** This is a Estimator{ML, QMC}                                              |
+| *** Simulating Beam MLQMC_Het_Lin_High_GP25-03-2022-T:03:25:14                |
+| *** Tolerance on RMSE ϵ = 9.457e+10                                           |
++-------------------------------------------------------------------------------+
+Currently running on level 0.
+Taking 10 x 2 warm-up samples at level 0... done
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+| level         | E             | dE            | V             | dV            | N             | W             | 
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+| 0             | 1.91690e-01   | 1.91690e-01   | 3.99356e-03   | 3.99356e-03   | 10 x 2        | 2.36320e+01   |
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+Variance of the estimator = 6.622612791042247e-5
+Std of the estimator = 0.008137943715117626
+mean = 0.19168958489218788
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+| level         | E             | dE            | V             | dV            | N             | W             | 
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+| 0             | 1.91690e-01   | 1.91690e-01   | 3.99356e-03   | 3.99356e-03   | 10 x 2        | 2.36320e+01   |
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+Variance of the estimator = 6.622612791042247e-5
+Std of the estimator = 0.008137943715117626
+mean = 0.19168958489218788
++---------------+---------------+---------------+---------------+---------------+---------------+---------------+
+Currently running on level 1.
+Taking 10 x 2 warm-up samples at level 1...      From worker 4:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 4:	
+      From worker 4:	Error in solver_nr (line 120)
+      From worker 4:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 4:	
+      From worker 4:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 4:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 8:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 8:	
+      From worker 8:	Error in solver_nr (line 120)
+      From worker 8:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 8:	
+      From worker 8:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 8:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 6:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 6:	
+      From worker 6:	Error in solver_nr (line 120)
+      From worker 6:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 6:	
+      From worker 6:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 6:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 5:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 5:	
+      From worker 5:	Error in solver_nr (line 120)
+      From worker 5:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 5:	
+      From worker 5:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 5:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 7:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 7:	
+      From worker 7:	Error in solver_nr (line 120)
+      From worker 7:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 7:	
+      From worker 7:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 7:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 11:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 11:	
+      From worker 11:	Error in solver_nr (line 120)
+      From worker 11:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 11:	
+      From worker 11:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 11:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 3:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 3:	
+      From worker 3:	Error in solver_nr (line 120)
+      From worker 3:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 3:	
+      From worker 3:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 3:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 2:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 2:	
+      From worker 2:	Error in solver_nr (line 120)
+      From worker 2:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 2:	
+      From worker 2:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 2:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 12:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 12:	
+      From worker 12:	Error in solver_nr (line 120)
+      From worker 12:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 12:	
+      From worker 12:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 12:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 9:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 9:	
+      From worker 9:	Error in solver_nr (line 120)
+      From worker 9:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 9:	
+      From worker 9:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 9:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 14:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 14:	
+      From worker 14:	Error in solver_nr (line 120)
+      From worker 14:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 14:	
+      From worker 14:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 14:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 10:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 10:	
+      From worker 10:	Error in solver_nr (line 120)
+      From worker 10:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 10:	
+      From worker 10:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 10:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 15:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 15:	
+      From worker 15:	Error in solver_nr (line 120)
+      From worker 15:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 15:	
+      From worker 15:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 15:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 16:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 16:	
+      From worker 16:	Error in solver_nr (line 120)
+      From worker 16:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 16:	
+      From worker 16:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 16:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 13:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 13:	
+      From worker 13:	Error in solver_nr (line 120)
+      From worker 13:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 13:	
+      From worker 13:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 13:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 18:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 18:	
+      From worker 18:	Error in solver_nr (line 120)
+      From worker 18:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 18:	
+      From worker 18:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 18:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 21:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 21:	
+      From worker 21:	Error in solver_nr (line 120)
+      From worker 21:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 21:	
+      From worker 21:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 21:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 17:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 17:	
+      From worker 17:	Error in solver_nr (line 120)
+      From worker 17:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 17:	
+      From worker 17:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 17:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 19:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 19:	
+      From worker 19:	Error in solver_nr (line 120)
+      From worker 19:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 19:	
+      From worker 19:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 19:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 20:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 20:	
+      From worker 20:	Error in solver_nr (line 120)
+      From worker 20:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 20:	
+      From worker 20:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 20:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 8:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 8:	
+      From worker 8:	Error in solver_nr (line 120)
+      From worker 8:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 8:	
+      From worker 8:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 8:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 3:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 3:	
+      From worker 3:	Error in solver_nr (line 120)
+      From worker 3:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 3:	
+      From worker 3:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 3:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 15:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 15:	
+      From worker 15:	Error in solver_nr (line 120)
+      From worker 15:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 15:	
+      From worker 15:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 15:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 9:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 9:	
+      From worker 9:	Error in solver_nr (line 120)
+      From worker 9:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 9:	
+      From worker 9:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 9:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 12:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 12:	
+      From worker 12:	Error in solver_nr (line 120)
+      From worker 12:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 12:	
+      From worker 12:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 12:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 2:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 2:	
+      From worker 2:	Error in solver_nr (line 120)
+      From worker 2:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 2:	
+      From worker 2:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 2:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 6:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 6:	
+      From worker 6:	Error in solver_nr (line 120)
+      From worker 6:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 6:	
+      From worker 6:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 6:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 11:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 11:	
+      From worker 11:	Error in solver_nr (line 120)
+      From worker 11:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 11:	
+      From worker 11:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 11:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 7:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 7:	
+      From worker 7:	Error in solver_nr (line 120)
+      From worker 7:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 7:	
+      From worker 7:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 7:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 4:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 4:	
+      From worker 4:	Error in solver_nr (line 120)
+      From worker 4:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 4:	
+      From worker 4:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 4:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 5:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 5:	
+      From worker 5:	Error in solver_nr (line 120)
+      From worker 5:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 5:	
+      From worker 5:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 5:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 14:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 14:	
+      From worker 14:	Error in solver_nr (line 120)
+      From worker 14:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 14:	
+      From worker 14:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 14:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 26:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 26:	
+      From worker 26:	Error in solver_nr (line 120)
+      From worker 26:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 26:	
+      From worker 26:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 26:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 28:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 28:	
+      From worker 28:	Error in solver_nr (line 120)
+      From worker 28:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 28:	
+      From worker 28:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 28:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 22:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 22:	
+      From worker 22:	Error in solver_nr (line 120)
+      From worker 22:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 22:	
+      From worker 22:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 22:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 24:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 24:	
+      From worker 24:	Error in solver_nr (line 120)
+      From worker 24:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 24:	
+      From worker 24:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 24:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 27:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 27:	
+      From worker 27:	Error in solver_nr (line 120)
+      From worker 27:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 27:	
+      From worker 27:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 27:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 29:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 29:	
+      From worker 29:	Error in solver_nr (line 120)
+      From worker 29:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 29:	
+      From worker 29:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 29:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 23:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 23:	
+      From worker 23:	Error in solver_nr (line 120)
+      From worker 23:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 23:	
+      From worker 23:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 23:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 25:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 25:	
+      From worker 25:	Error in solver_nr (line 120)
+      From worker 25:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 25:	
+      From worker 25:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 25:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 30:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 30:	
+      From worker 30:	Error in solver_nr (line 120)
+      From worker 30:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 30:	
+      From worker 30:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 30:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 32:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 32:	
+      From worker 32:	Error in solver_nr (line 120)
+      From worker 32:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 32:	
+      From worker 32:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 32:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 33:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 33:	
+      From worker 33:	Error in solver_nr (line 120)
+      From worker 33:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 33:	
+      From worker 33:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 33:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 31:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 31:	
+      From worker 31:	Error in solver_nr (line 120)
+      From worker 31:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 31:	
+      From worker 31:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 31:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 36:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 36:	
+      From worker 36:	Error in solver_nr (line 120)
+      From worker 36:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 36:	
+      From worker 36:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 36:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 35:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 35:	
+      From worker 35:	Error in solver_nr (line 120)
+      From worker 35:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 35:	
+      From worker 35:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 35:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 34:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 34:	
+      From worker 34:	Error in solver_nr (line 120)
+      From worker 34:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 34:	
+      From worker 34:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 34:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 37:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 37:	
+      From worker 37:	Error in solver_nr (line 120)
+      From worker 37:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 37:	
+      From worker 37:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 37:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 13:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 13:	
+      From worker 13:	Error in solver_nr (line 120)
+      From worker 13:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 13:	
+      From worker 13:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 13:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 10:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 10:	
+      From worker 10:	Error in solver_nr (line 120)
+      From worker 10:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 10:	
+      From worker 10:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 10:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 16:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 16:	
+      From worker 16:	Error in solver_nr (line 120)
+      From worker 16:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 16:	
+      From worker 16:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 16:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 18:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 18:	
+      From worker 18:	Error in solver_nr (line 120)
+      From worker 18:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 18:	
+      From worker 18:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 18:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 21:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 21:	
+      From worker 21:	Error in solver_nr (line 120)
+      From worker 21:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 21:	
+      From worker 21:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 21:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 17:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 17:	
+      From worker 17:	Error in solver_nr (line 120)
+      From worker 17:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 17:	
+      From worker 17:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 17:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 20:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 20:	
+      From worker 20:	Error in solver_nr (line 120)
+      From worker 20:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 20:	
+      From worker 20:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 20:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 19:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 19:	
+      From worker 19:	Error in solver_nr (line 120)
+      From worker 19:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 19:	
+      From worker 19:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 19:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 8:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 8:	
+      From worker 8:	Error in solver_nr (line 120)
+      From worker 8:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 8:	
+      From worker 8:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 8:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 5:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 5:	
+      From worker 5:	Error in solver_nr (line 120)
+      From worker 5:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 5:	
+      From worker 5:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 5:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 7:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 7:	
+      From worker 7:	Error in solver_nr (line 120)
+      From worker 7:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 7:	
+      From worker 7:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 7:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 4:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 4:	
+      From worker 4:	Error in solver_nr (line 120)
+      From worker 4:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 4:	
+      From worker 4:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 4:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 11:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 11:	
+      From worker 11:	Error in solver_nr (line 120)
+      From worker 11:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 11:	
+      From worker 11:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 11:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 6:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 6:	
+      From worker 6:	Error in solver_nr (line 120)
+      From worker 6:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 6:	
+      From worker 6:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 6:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 3:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 3:	
+      From worker 3:	Error in solver_nr (line 120)
+      From worker 3:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 3:	
+      From worker 3:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 3:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 2:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 2:	
+      From worker 2:	Error in solver_nr (line 120)
+      From worker 2:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 2:	
+      From worker 2:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 2:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 9:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 9:	
+      From worker 9:	Error in solver_nr (line 120)
+      From worker 9:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 9:	
+      From worker 9:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 9:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 12:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 12:	
+      From worker 12:	Error in solver_nr (line 120)
+      From worker 12:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 12:	
+      From worker 12:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 12:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 14:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 14:	
+      From worker 14:	Error in solver_nr (line 120)
+      From worker 14:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 14:	
+      From worker 14:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 14:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 15:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 15:	
+      From worker 15:	Error in solver_nr (line 120)
+      From worker 15:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 15:	
+      From worker 15:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 15:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 24:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 24:	
+      From worker 24:	Error in solver_nr (line 120)
+      From worker 24:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 24:	
+      From worker 24:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 24:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 26:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 26:	
+      From worker 26:	Error in solver_nr (line 120)
+      From worker 26:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 26:	
+      From worker 26:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 26:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 28:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 28:	
+      From worker 28:	Error in solver_nr (line 120)
+      From worker 28:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 28:	
+      From worker 28:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 28:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 29:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 29:	
+      From worker 29:	Error in solver_nr (line 120)
+      From worker 29:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 29:	
+      From worker 29:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 29:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+      From worker 23:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".
+      From worker 23:	
+      From worker 23:	Error in solver_nr (line 120)
+      From worker 23:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);
+      From worker 23:	
+      From worker 23:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)
+      From worker 23:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} 
+ERROR: LoadError:       From worker 27:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".at row 0, column 0 : ArgumentError("number of rows in dims must be > 0, got 0")
+
+Stacktrace:      From worker 27:	
+
+ [1]       From worker 27:	Error in solver_nr (line 120)(::Base.var"#770#772")
+(      From worker 27:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);::
+Task      From worker 27:	)
+ at       From worker 27:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)./asyncmap.jl:178
+
+      From worker 27:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);}  [2] 
+foreach(      From worker 22:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".::
+Base      From worker 22:	.
+var      From worker 22:	Error in solver_nr (line 120)"#770#772"
+,       From worker 22:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);::
+Array      From worker 22:	{
+Any      From worker 22:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264),
+1      From worker 22:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} }
+) at       From worker 25:	{Output argument "R" (and maybe others) not assigned during call to "asmrk"../abstractarray.jl:2009
+
+      From worker 25:	 [3] 
+maptwice      From worker 25:	Error in solver_nr (line 120)(
+::      From worker 25:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);Function
+,       From worker 25:	::
+Channel      From worker 25:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264){
+Any      From worker 25:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} }
+, ::      From worker 30:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".Array
+{      From worker 30:	Any
+,      From worker 30:	Error in solver_nr (line 120)1
+}      From worker 30:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);, 
+::      From worker 30:	Base.Iterators
+.      From worker 30:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)ProductIterator
+{      From worker 30:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} Tuple
+{UnitRange      From worker 33:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".{
+Int64      From worker 33:	}
+,      From worker 33:	Error in solver_nr (line 120)UnitRange
+{      From worker 33:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);Int64
+}      From worker 33:	}
+}      From worker 33:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264))
+ at       From worker 33:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} ./asyncmap.jl:178
+
+ [4]       From worker 31:	{Output argument "R" (and maybe others) not assigned during call to "asmrk".wrap_n_exec_twice
+(      From worker 31:	::
+Channel      From worker 31:	Error in solver_nr (line 120){
+Any      From worker 31:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);}
+,       From worker 31:	::
+Array      From worker 31:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264){
+Any      From worker 31:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} ,
+1}      From worker 32:	{Output argument "R" (and maybe others) not assigned during call to "asmrk"., 
+::      From worker 32:	Distributed
+.      From worker 32:	Error in solver_nr (line 120)var
+"#206#209"      From worker 32:	    [R,K,HistPar,ElemCache]=asmrk(Nodes,Elements,Types,Sections,Materials,kefunc,naDOF,indi,indj,elemInd,Ldof,U(:,iLoad),Options,HistPar,ElemCache);{
+CachingPool      From worker 32:	}
+,       From worker 32:	Error in Solver_L_JULIA_MATLAB_READ_IN_LNA (line 264)::
+Function      From worker 32:	U=solver_nr(Nodes,Elements,Types,Sections,Materials,DOF,P,PLoad,Options,[],[],[],[],[]);} , 
+::Base.Iterators.ProductIterator{Tuple{UnitRange{Int64},UnitRange{Int64}}}) at ./asyncmap.jl:154
+ [5] async_usemap(::Base.var"#56#58"{Base.var"#56#57#59"{ExponentialBackOff,Nothing,Distributed.var"#222#223"{Distributed.var"#190#192"{Distributed.var"#190#191#193"{CachingPool,MultilevelEstimators.var"#f#79"{Estimator{ML{1},QMC,Array{Normal{Int64},1},Dict{Symbol,Any},MultilevelEstimators.EstimatorInternals{MultilevelEstimators.DefaultInternals{Array{Array{Array{Float64,1},1},2},Array{Int64,1},Array{Float64,1},Set{Level},MultilevelEstimators.IndexSetSize{Int64}},MultilevelEstimators.GenericIndexSetInternals,MultilevelEstimators.QMCInternals{Array{Array{ShiftedLatticeRule32{586,LatticeRule32{586},Array{Float64,1}},1},1}}}},Level,Int64,MultilevelEstimators.var"#x#78"{ML{1},Estimator{ML{1},QMC,Array{Normal{Int64},1},Dict{Symbol,Any},MultilevelEstimators.EstimatorInternals{MultilevelEstimators.DefaultInternals{Array{Array{Array{Float64,1},1},2},Array{Int64,1},Array{Float64,1},Set{Level},MultilevelEstimators.IndexSetSize{Int64}},MultilevelEstimators.GenericIndexSetInternals,MultilevelEstimators.QMCInternals{Array{Array{ShiftedLatticeRule32{586,LatticeRule32{586},Array{Float64,1}},1},1}}}},Level,Int64}}}}}}}, ::Base.Iterators.ProductIterator{Tuple{UnitRange{Int64},UnitRange{Int64}}}; ntasks::Function, batch_size::Nothing) at ./asyncmap.jl:103
+ [6] #asyncmap#754 at ./asyncmap.jl:81 [inlined]
+ [7] pmap(::Function, ::CachingPool, ::Base.Iterators.ProductIterator{Tuple{UnitRange{Int64},UnitRange{Int64}}}; distributed::Bool, batch_size::Int64, on_error::Nothing, retry_delays::ExponentialBackOff, retry_check::Nothing) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.5/Distributed/src/pmap.jl:126
+ [8] parallel_sample!(::Estimator{ML{1},QMC,Array{Normal{Int64},1},Dict{Symbol,Any},MultilevelEstimators.EstimatorInternals{MultilevelEstimators.DefaultInternals{Array{Array{Array{Float64,1},1},2},Array{Int64,1},Array{Float64,1},Set{Level},MultilevelEstimators.IndexSetSize{Int64}},MultilevelEstimators.GenericIndexSetInternals,MultilevelEstimators.QMCInternals{Array{Array{ShiftedLatticeRule32{586,LatticeRule32{586},Array{Float64,1}},1},1}}}}, ::Level, ::Int64, ::Int64) at /user/leuven/330/vsc33032/.julia/dev/MultilevelEstimators/src/sample.jl:95
+ [9] macro expansion at ./timing.jl:233 [inlined]
+ [10] sample!(::Estimator{ML{1},QMC,Array{Normal{Int64},1},Dict{Symbol,Any},MultilevelEstimators.EstimatorInternals{MultilevelEstimators.DefaultInternals{Array{Array{Array{Float64,1},1},2},Array{Int64,1},Array{Float64,1},Set{Level},MultilevelEstimators.IndexSetSize{Int64}},MultilevelEstimators.GenericIndexSetInternals,MultilevelEstimators.QMCInternals{Array{Array{ShiftedLatticeRule32{586,LatticeRule32{586},Array{Float64,1}},1},1}}}}, ::Level, ::Int64) at /user/leuven/330/vsc33032/.julia/dev/MultilevelEstimators/src/sample.jl:27
+ [11] _run(::Estimator{ML{1},QMC,Array{Normal{Int64},1},Dict{Symbol,Any},MultilevelEstimators.EstimatorInternals{MultilevelEstimators.DefaultInternals{Array{Array{Array{Float64,1},1},2},Array{Int64,1},Array{Float64,1},Set{Level},MultilevelEstimators.IndexSetSize{Int64}},MultilevelEstimators.GenericIndexSetInternals,MultilevelEstimators.QMCInternals{Array{Array{ShiftedLatticeRule32{586,LatticeRule32{586},Array{Float64,1}},1},1}}}}, ::Float64) at /user/leuven/330/vsc33032/.julia/dev/MultilevelEstimators/src/run.jl:67
+ [12] macro expansion at ./timing.jl:233 [inlined]
+ [13] run(::Estimator{ML{1},QMC,Array{Normal{Int64},1},Dict{Symbol,Any},MultilevelEstimators.EstimatorInternals{MultilevelEstimators.DefaultInternals{Array{Array{Array{Float64,1},1},2},Array{Int64,1},Array{Float64,1},Set{Level},MultilevelEstimators.IndexSetSize{Int64}},MultilevelEstimators.GenericIndexSetInternals,MultilevelEstimators.QMCInternals{Array{Array{ShiftedLatticeRule32{586,LatticeRule32{586},Array{Float64,1}},1},1}}}}, ::Array{Float64,1}) at /user/leuven/330/vsc33032/.julia/dev/MultilevelEstimators/src/run.jl:31
+ [14] run(::Estimator{ML{1},QMC,Array{Normal{Int64},1},Dict{Symbol,Any},MultilevelEstimators.EstimatorInternals{MultilevelEstimators.DefaultInternals{Array{Array{Array{Float64,1},1},2},Array{Int64,1},Array{Float64,1},Set{Level},MultilevelEstimators.IndexSetSize{Int64}},MultilevelEstimators.GenericIndexSetInternals,MultilevelEstimators.QMCInternals{Array{Array{ShiftedLatticeRule32{586,LatticeRule32{586},Array{Float64,1}},1},1}}}}, ::Float64) at /user/leuven/330/vsc33032/.julia/dev/MultilevelEstimators/src/run.jl:38
+ [15] top-level scope at /vsc-hard-mounts/leuven-user/330/vsc33032/.julia/dev/MultilevelEstimators/applications/SPDE/Run_Beam_sigma_LNA.jl:60
+ [16] include(::Function, ::Module, ::String) at ./Base.jl:380
+ [17] include(::Module, ::String) at ./Base.jl:368
+ [18] exec_options(::Base.JLOptions) at ./client.jl:296
+ [19] _start() at ./client.jl:506
+in expression starting at /vsc-hard-mounts/leuven-user/330/vsc33032/.julia/dev/MultilevelEstimators/applications/SPDE/Run_Beam_sigma_LNA.jl:60
+┌ Warning: Forcibly interrupting busy workers
+│   exception = rmprocs: pids [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37] not terminated after 5.0 seconds.
+└ @ Distributed /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.5/Distributed/src/cluster.jl:1234
+┌ Warning: rmprocs: process 1 not removed
+└ @ Distributed /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.5/Distributed/src/cluster.jl:1030

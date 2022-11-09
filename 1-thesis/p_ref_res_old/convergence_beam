@@ -1,0 +1,61 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.85000,0.32500,0.09800}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=4.521in,
+height=3.566in,
+at={(0.758in,0.481in)},
+scale only axis,
+xmode=log,
+xmin=100.00000000000000000000,
+xmax=1000000.00000000000000000000,
+xminorticks=true,
+xlabel style={font=\color{white!15!black}},
+xlabel={Number of DOF's [/]},
+ymode=log,
+ymin=0.00000100000000000000,
+ymax=0.10000000000000000555,
+yminorticks=true,
+ylabel style={font=\color{white!15!black}},
+ylabel={relative error [/]},
+axis background/.style={fill=white},
+xmajorgrids,
+xminorgrids,
+ymajorgrids,
+yminorgrids,
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot [color=mycolor1, mark=asterisk, mark options={solid, mycolor1}]
+  table[row sep=crcr]{%
+210.00000000000000000000	0.04199215362360589343\\
+738.00000000000000000000	0.00060463227504173149\\
+1586.00000000000000000000	0.00008366024589007774\\
+2754.00000000000000000000	0.00000168931555657772\\
+4242.00000000000000000000	0.00000362719525512667\\
+6050.00000000000000000000	0.00000700306454458238\\
+8178.00000000000000000000	0.00000208149453600513\\
+10626.00000000000000000000	0.00000000000000000000\\
+};
+\addlegendentry{p-refinement}
+
+\addplot [color=mycolor2, mark=asterisk, mark options={solid, mycolor2}]
+  table[row sep=crcr]{%
+210.00000000000000000000	0.04199215362360589343\\
+738.00000000000000000000	0.01149774313103378576\\
+2754.00000000000000000000	0.00308750818727713790\\
+10626.00000000000000000000	0.00084828037052732961\\
+41730.00000000000000000000	0.00025426546677416320\\
+165378.00000000000000000000	0.00009585461856745174\\
+};
+\addlegendentry{h-refinement}
+
+\end{axis}
+\end{tikzpicture}%

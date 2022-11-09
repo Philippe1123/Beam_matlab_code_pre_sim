@@ -1,0 +1,55 @@
+Merge "Beam.geo";
+Mesh.MshFileVersion = 2.2;
+Mesh 2;
+SetOrder 1;
+Mesh.SaveTopology; 
+Save Sprintf("level_%1g%1g.msh", 0,0);
+Mesh.SaveTopology; 
+For i In {1:4}
+  RefineMesh;
+  SetOrder 1;
+  Save Sprintf("level_%1g%1g.msh", i,0);
+EndFor
+Delete All;
+
+
+Merge "versionfive_steeper.geo";
+Mesh 2;
+SetOrder 3;
+Mesh.MshFileVersion = 2.2;
+Save Sprintf("level_%1g%1g.msh", 0,1);
+For i In {1:4}
+  RefineMesh;
+  SetOrder 3;
+  Save Sprintf("level_%1g%1g.msh", i,1);
+EndFor
+Delete All;
+
+Merge "versionfive_steeper.geo";
+Mesh 2;
+SetOrder 5;
+Mesh.MshFileVersion = 2.2;
+Save Sprintf("level_%1g%1g.msh", 0,2);
+For i In {1:4}
+  RefineMesh;
+  SetOrder 5;
+  Save Sprintf("level_%1g%1g.msh", i,2);
+EndFor
+Delete All;
+
+Merge "versionfive_steeper.geo";
+Mesh 2;
+SetOrder 7;
+Mesh.MshFileVersion = 2.2;
+Save Sprintf("level_%1g%1g.msh", 0,3);
+For i In {1:4}
+  RefineMesh;
+  SetOrder 7;
+  Save Sprintf("level_%1g%1g.msh", i,3);
+EndFor
+Delete All;
+
+
+
+Exit;
+

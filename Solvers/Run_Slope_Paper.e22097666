@@ -1,0 +1,3 @@
+tee: standard output: Disk quota exceeded
+tee: /vsc-hard-mounts/leuven-user/330/vsc33032/.julia/packages/MultilevelEstimators/KoRDo/applications/SPDE/Slope_hpc_24042020_paper_test_same_Res.txt: Disk quota exceeded
+tee: write error
